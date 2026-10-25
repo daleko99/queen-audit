@@ -1,0 +1,19 @@
+queen-audit
+Copyright 2026 daleko99
+
+This project contains code derived from the Queen project
+(https://github.com/queen-project/queen), Copyright the Queen authors,
+licensed under the Apache License, Version 2.0.
+
+Files carried over from that project and modified here:
+  datagen/self_distill/analysis.py, io.py, play_storage.py
+  datagen/tree/__init__.py
+Files carried over unchanged:
+  datagen/self_distill/__init__.py, oracle.py, play_engines.py, schema.py
+  eval/__init__.py, elo.py, engines.py, match.py
+datagen/tree/pov_tokens.py is moved out of the Queen project's
+datagen/self_distill/consolidation.py.
+All other files are new.
+
+This project is not affiliated with or endorsed by Princeton University,
+Princeton NLP or the Queen authors.
